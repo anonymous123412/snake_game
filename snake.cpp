@@ -36,9 +36,9 @@ int main(){
     RenderWindow window(VideoMode(30 * 16, 20 * 16), "snake turorial");
 
     Texture t1,t2,t3;
-        t1.loadFromFile("images/white.png");
-        t2.loadFromFile("images/red.png"  );
-        t3.loadFromFile("images/green.png");
+        t1.loadFromFile("imageserterte/white.png");
+        t2.loadFromFile("imageserterte/red.png"  );
+        t3.loadFromFile("imageserterte/green.png");
 
     Sprite sprite1(t1);
     Sprite sprite2(t2);
